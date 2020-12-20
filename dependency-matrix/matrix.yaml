@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: ci-cd-jenkinsx-przelew
+  repo: spring-boot-http-gradle
+  url: https://github.com/ci-cd-jenkinsx-przelew/spring-boot-http-gradle.git
+  version: ""
+  versionURL: ""

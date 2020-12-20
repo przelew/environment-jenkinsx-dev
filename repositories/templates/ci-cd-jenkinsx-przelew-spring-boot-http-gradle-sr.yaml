@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ci-cd-jenkinsx-przelew
+    provider: github
+    repository: spring-boot-http-gradle
+  name: ci-cd-jenkinsx-przelew-spring-boot-http-gradle
+spec:
+  description: Imported application for ci-cd-jenkinsx-przelew/spring-boot-http-gradle
+  httpCloneURL: https://github.com/ci-cd-jenkinsx-przelew/spring-boot-http-gradle.git
+  org: ci-cd-jenkinsx-przelew
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: spring-boot-http-gradle
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ci-cd-jenkinsx-przelew/spring-boot-http-gradle.git
